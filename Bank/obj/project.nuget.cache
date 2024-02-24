@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zPqJqPTMMBXxW1cXgLNOf2/ESp4BzvKrW7+CAfhEf+19HxikQy9+7sXbAVS8N1p5nUPd6enxmjIi8Xf3euWAxQ==",
+  "dgSpecHash": "I6I06mNb7dEgFCLKIAF+UBxszATVNohdNNvsJeJm3N1KDmaRZZ7EJoxaKuZ2jZ5Id53pkIYIf6kgb13rDVouZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Inteli\\Documents\\GitHub\\ponderada-M9S3\\Bank\\Bank.csproj",
+  "projectFilePath": "C:\\Users\\Inteli\\Documents\\GitHub\\Testes-de-unidade-para-codigo-gerenciado\\Bank\\Bank\\Bank.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

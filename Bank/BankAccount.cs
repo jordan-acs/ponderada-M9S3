@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BankAccountNS
+﻿namespace BankAccountNS
 {
     /// <summary>
     /// Bank account demo class.
@@ -32,15 +30,18 @@ namespace BankAccountNS
         {
             if (amount > m_balance)
             {
-                throw new ArgumentOutOfRangeException("amount");
+                // throw new ApplicationException("amount"); -> Mudança para a correta execução do teste
+                throw new ApplicationException("amount");
             }
 
             if (amount < 0)
             {
-                throw new ArgumentOutOfRangeException("amount");
+                // throw new ApplicationException("amount"); -> Mudança para a correta execução do teste
+                throw new ApplicationException("amount");
             }
 
-            m_balance -= amount; // intentionally incorrect code
+            //m_balance += amount;     
+            m_balance -= amount;    
         }
 
         public void Credit(double amount)
